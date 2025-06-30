@@ -3,41 +3,43 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f7f6;
+    background-color: #e0f7fa; /* 연한 하늘색 배경 */
     color: #333;
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #00bcd4; /* 터키색 헤더 */
     color: white;
-    padding: 2rem 0;
+    padding: 2.5rem 0; /* 패딩 증가 */
     text-align: center;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* 그림자 강화 */
+    background-image: linear-gradient(to right, #00bcd4, #26c6da); /* 그라데이션 */
 }
 
 header h1 {
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 2.8rem; /* 폰트 크기 증가 */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3); /* 텍스트 그림자 */
 }
 
 header p {
-    font-size: 1.1rem;
-    margin-top: 0.5rem;
+    font-size: 1.2rem; /* 폰트 크기 증가 */
+    margin-top: 0.8rem;
 }
 
 main {
-    padding: 20px;
-    max-width: 900px;
-    margin: 20px auto;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 25px; /* 패딩 증가 */
+    max-width: 950px; /* 최대 너비 증가 */
+    margin: 25px auto; /* 마진 증가 */
+    background-color: #ffffff;
+    border-radius: 12px; /* 모서리 둥글게 */
+    box-shadow: 0 0 15px rgba(0,0,0,0.15); /* 그림자 강화 */
 }
 
 section {
-    margin-bottom: 30px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #eee;
+    margin-bottom: 35px; /* 마진 증가 */
+    padding-bottom: 25px; /* 패딩 증가 */
+    border-bottom: 1px solid #b2ebf2; /* 연한 파랑색 구분선 */
 }
 
 section:last-child {
@@ -45,18 +47,19 @@ section:last-child {
 }
 
 h2 {
-    color: #2e7d32;
-    font-size: 1.8rem;
-    border-bottom: 2px solid #a5d6a7;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
+    color: #00838f; /* 진한 터키색 */
+    font-size: 2rem; /* 폰트 크기 증가 */
+    border-bottom: 3px solid #4dd0e1; /* 진한 파랑색 구분선 */
+    padding-bottom: 12px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
 }
 
 h3 {
-    color: #388e3c;
-    font-size: 1.4rem;
-    margin-top: 25px;
-    margin-bottom: 15px;
+    color: #00acc1; /* 중간 터키색 */
+    font-size: 1.6rem; /* 폰트 크기 증가 */
+    margin-top: 30px;
+    margin-bottom: 18px;
 }
 
 ul {
@@ -65,73 +68,76 @@ ul {
 }
 
 ul li {
-    margin-bottom: 10px;
-    padding-left: 20px;
+    margin-bottom: 12px;
+    padding-left: 25px;
     position: relative;
 }
 
 ul li::before {
-    content: '•';
-    color: #4CAF50;
+    content: '🌴'; /* 야자수 이모지 */
+    color: #00bcd4; /* 터키색 */
     position: absolute;
     left: 0;
+    font-size: 1.2em;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 table th, table td {
-    border: 1px solid #ddd;
-    padding: 10px;
+    border: 1px solid #b2ebf2; /* 연한 파랑색 테두리 */
+    padding: 12px;
     text-align: left;
 }
 
 table th {
-    background-color: #e8f5e9;
-    color: #333;
+    background-color: #e0f7fa; /* 연한 하늘색 배경 */
+    color: #00838f; /* 진한 터키색 */
     font-weight: bold;
 }
 
 table tr:nth-child(even) {
-    background-color: #f9f9f9;
+    background-color: #f5feff; /* 아주 연한 하늘색 */
 }
 
 .category {
-    background-color: #e8f5e9;
-    padding: 15px;
-    border-radius: 5px;
-    margin-bottom: 15px;
+    background-color: #e0f7fa; /* 연한 하늘색 배경 */
+    padding: 20px;
+    border-radius: 10px; /* 모서리 둥글게 */
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* 그림자 추가 */
 }
 
 .category h3 {
-    color: #1b5e20;
+    color: #00838f; /* 진한 터키색 */
     margin-top: 0;
-    margin-bottom: 10px;
-    font-size: 1.2rem;
+    margin-bottom: 12px;
+    font-size: 1.3rem;
 }
 
 footer {
     text-align: center;
-    padding: 20px;
-    margin-top: 30px;
-    background-color: #4CAF50;
+    padding: 25px;
+    margin-top: 35px;
+    background-color: #00bcd4; /* 터키색 푸터 */
     color: white;
-    font-size: 0.9rem;
+    font-size: 1rem;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
     header h1 {
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
     h2 {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
     h3 {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
     table, thead, tbody, th, td, tr {
         display: block;
@@ -161,8 +167,7 @@ footer {
     }
 }
 
-/* Add to style.css */
-
+/* Checklist specific styles */
 .preparation h2 small {
     font-size: 0.8em;
     color: #666;
@@ -178,19 +183,20 @@ footer {
     display: flex;
     align-items: flex-start;
     margin-bottom: 15px;
-    padding-left: 0; /* Remove default padding */
+    padding-left: 0;
 }
 
 .checklist li::before {
-    content: none; /* Remove default bullet */
+    content: none;
 }
 
 .checklist input[type="checkbox"] {
     margin-right: 10px;
-    flex-shrink: 0; /* Prevent checkbox from shrinking */
+    flex-shrink: 0;
     width: 20px;
     height: 20px;
     cursor: pointer;
+    accent-color: #00bcd4; /* 체크박스 색상 변경 */
 }
 
 .checklist label {
