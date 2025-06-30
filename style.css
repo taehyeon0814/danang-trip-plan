@@ -160,3 +160,53 @@ footer {
         text-align: left;
     }
 }
+
+/* Add to style.css */
+
+.preparation h2 small {
+    font-size: 0.8em;
+    color: #666;
+    margin-left: 10px;
+}
+
+.checklist {
+    list-style: none;
+    padding: 0;
+}
+
+.checklist li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    padding-left: 0; /* Remove default padding */
+}
+
+.checklist li::before {
+    content: none; /* Remove default bullet */
+}
+
+.checklist input[type="checkbox"] {
+    margin-right: 10px;
+    flex-shrink: 0; /* Prevent checkbox from shrinking */
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.checklist label {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    flex-grow: 1;
+}
+
+.checklist .item-text {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.checklist .deadline {
+    font-size: 0.9em;
+    color: #888;
+    font-style: italic;
+}
